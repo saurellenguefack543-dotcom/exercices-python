@@ -5,7 +5,7 @@ def ex_2_2_pair_impair():
     
     nombre = int(input("Entrez un nombre : "))
     
-    # Verification avec le modulo
+    
     if nombre % 2 == 0:
         print(f"{nombre} est PAIR")
     else:
