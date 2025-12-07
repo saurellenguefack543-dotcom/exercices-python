@@ -1,6 +1,6 @@
 def ex_2_2_pair_impair():
     print("=" * 60)
-    print("EXERCICE 2.2 : PAIR OU IMPAIR")
+    print("PAIR OU IMPAIR")
     print("=" * 60)
     
     nombre = int(input("Entrez un nombre : "))
