@@ -1,7 +1,5 @@
 def ex_3_1_table_multiplication():
     print("=" * 60)
-    print("EXERCICE 3.1 : TABLE DE MULTIPLICATION")
-    print("=" * 60)
     
     n = int(input("Table de multiplication de : "))
     
