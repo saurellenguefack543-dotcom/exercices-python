@@ -1,0 +1,15 @@
+def ex_2_2_pair_impair():
+    print("=" * 60)
+    print("EXERCICE 2.2 : PAIR OU IMPAIR")
+    print("=" * 60)
+    
+    nombre = int(input("Entrez un nombre : "))
+    
+    # Verification avec le modulo
+    if nombre % 2 == 0:
+        print(f"{nombre} est PAIR")
+    else:
+        print(f"{nombre} est IMPAIR")
+
+if __name__ == "__main__":
+    ex_2_2_pair_impair()
