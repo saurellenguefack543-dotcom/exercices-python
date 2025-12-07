@@ -1,0 +1,20 @@
+def ex_4_2_voyelles():
+    print("=" * 60)
+    print("EXERCICE 4.2 : COMPTEUR DE VOYELLES")
+    print("=" * 60)
+    
+    chaine = input("Entrez une phrase : ")
+    
+    voyelles = "aeiouyAEIOUY"
+    compteur = 0
+    
+    # Compter les voyelles dans la chaine
+    for char in chaine:
+        if char in voyelles:
+            compteur += 1
+    
+    print(f"\nNombre de voyelles : {compteur}")
+    print(f"Pourcentage : {compteur/len(chaine)*100:.1f}%")
+
+if __name__ == "__main__":
+    ex_4_2_voyelles()
