@@ -1,13 +1,13 @@
 def ex_3_3_compte_rebours():
     print("=" * 60)
-    print("EXERCICE 3.3 : COMPTE A REBOURS")
+    print("COMPTE A REBOURS")
     print("=" * 60)
     
     n = int(input("Depart du compte a rebours : "))
     
     print("\nCompte a rebours:")
     
-    # Compte de n jusqu'a 0
+
     for i in range(n, -1, -1):
         print(f"   {i}")
     
