@@ -8,7 +8,7 @@ def ex_4_1_inversion():
     
     inverse = ""
     for char in chaine:
-        inverse = char + inverse  # Ajouter chaque caractere au debut
+        inverse = char + inverse 
     
     print(f"\nChaine originale : {chaine}")
     print(f"Chaine inversee  : {inverse}")
