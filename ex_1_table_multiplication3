@@ -1,0 +1,17 @@
+def ex_3_1_table_multiplication():
+    print("=" * 60)
+    print("EXERCICE 3.1 : TABLE DE MULTIPLICATION")
+    print("=" * 60)
+    
+    n = int(input("Table de multiplication de : "))
+    
+    print(f"\nTable de {n}:")
+    print("-" * 30)
+    
+    # Affichage de la table de 1 a 10
+    for i in range(1, 11):
+        resultat = n * i
+        print(f"{n} x {i:2d} = {resultat:3d}")
+
+if __name__ == "__main__":
+    ex_3_1_table_multiplication()
