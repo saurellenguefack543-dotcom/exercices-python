@@ -1,6 +1,7 @@
 
 a = 5
 b = 10
+
 print("Avant l'échange :")
 print("a =", a)
 print("b =", b)
