@@ -1,11 +1,11 @@
 def ex_4_1_inversion():
     print("=" * 60)
-    print("EXERCICE 4.1 : INVERSION DE CHAINE")
+    print("INVERSION DE CHAINE")
     print("=" * 60)
     
     chaine = input("Entrez une chaine : ")
     
-    # Construction de la chaine inversee
+    
     inverse = ""
     for char in chaine:
         inverse = char + inverse  # Ajouter chaque caractere au debut
@@ -13,7 +13,7 @@ def ex_4_1_inversion():
     print(f"\nChaine originale : {chaine}")
     print(f"Chaine inversee  : {inverse}")
     
-    # Verification
+    
     assert inverse == chaine[::-1], "Erreur d'inversion"
     print("\nValidation reussie !")
 
