@@ -1,12 +1,12 @@
 def ex_2_3_maximum():
     print("=" * 60)
-    print("EXERCICE 2.3 : MAXIMUM DE DEUX NOMBRES")
+    print("MAXIMUM DE DEUX NOMBRES")
     print("=" * 60)
     
     a = float(input("Entrez le premier nombre : "))
     b = float(input("Entrez le deuxieme nombre : "))
     
-    # Comparaison des deux nombres
+    
     if a > b:
         print(f"Maximum : {a}")
     elif b > a:
