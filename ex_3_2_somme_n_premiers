@@ -1,0 +1,20 @@
+def ex_3_2_somme_n_premiers():
+    print("=" * 60)
+    print("EXERCICE 3.2 : SOMME DES N PREMIERS ENTIERS")
+    print("=" * 60)
+    
+    n = int(input("Entrez N : "))
+    
+    # Methode 1 : Avec une boucle
+    somme = 0
+    for i in range(1, n + 1):
+        somme += i
+    
+    print(f"\nSomme (boucle) : {somme}")
+    
+    # Methode 2 : Avec la formule
+    somme_formule = n * (n + 1) // 2
+    print(f"Somme (formule) : {somme_formule}")
+
+if __name__ == "__main__":
+    ex_3_2_somme_n_premiers()
