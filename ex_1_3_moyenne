@@ -6,13 +6,13 @@ def ex_1_3_moyenne():
     note2 = float(input("Note 2 sur 20 : "))
     note3 = float(input("Note 3 sur 20 : "))
     
-    # Calcul de la moyenne
+    
     moyenne = (note1 + note2 + note3) / 3
     
-    # Affichage du resultat
+    
     print(f"\nMoyenne : {moyenne:.2f}/20")
     
-    # Feedback selon la note
+    
     if moyenne >= 16:
         print("Tres bien !")
     elif moyenne >= 14:
