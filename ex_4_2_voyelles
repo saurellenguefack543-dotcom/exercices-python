@@ -1,6 +1,6 @@
 def ex_4_2_voyelles():
     print("=" * 60)
-    print("EXERCICE 4.2 : COMPTEUR DE VOYELLES")
+    print("COMPTEUR DE VOYELLES")
     print("=" * 60)
     
     chaine = input("Entrez une phrase : ")
@@ -8,7 +8,7 @@ def ex_4_2_voyelles():
     voyelles = "aeiouyAEIOUY"
     compteur = 0
     
-    # Compter les voyelles dans la chaine
+    
     for char in chaine:
         if char in voyelles:
             compteur += 1
