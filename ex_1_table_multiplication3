@@ -6,7 +6,7 @@ def ex_3_1_table_multiplication():
     print(f"\nTable de {n}:")
     print("-" * 30)
     
-    # Affichage de la table de 1 a 10
+
     for i in range(1, 11):
         resultat = n * i
         print(f"{n} x {i:2d} = {resultat:3d}")
